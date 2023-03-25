@@ -5,6 +5,7 @@ int main()
 {
     // set up the window
     sf::RenderWindow window(sf::VideoMode(800, 800), "Chladni Plate");
+    window.setFramerateLimit(30); // Set maximum frame rate
 
     // set up the plate dimensions
     int rows = 20;
